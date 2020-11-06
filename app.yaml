@@ -1,0 +1,6 @@
+runtime: python37
+
+handlers:
+- url: /
+  static_files: upload.html
+  upload: bird_image_predictor/controller.py

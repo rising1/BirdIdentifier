@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="grid-container">
+    <div class="grid-item" >
+        <h3 style="color:green;"> AI bird identifier </h3>
+    </div>
+    <div class="grid-item">
+        <div class="droparea" id="birdpic" >Drop picture here
+        </div>
+    </div>
+    <div class="grid-item">
+    <div class="gallery">
+        <div class="words1" ><p>Best guess:</p>  <span id="prediction1"</span>
+    </div>
+    <div class="words2" >  <span id="prediction0"</span>
+    </div>
+    </div>
+    <div class="gallery">
+        <div class="words3" >Second guess: <span id="prediction2"</span>
+        </div>
+        <div class="words3" >Third guess <span id="prediction3"</span>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
